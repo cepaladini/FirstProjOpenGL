@@ -3,6 +3,20 @@ Receber imagem com mapa de alturas, e gerar visualização 3D do terreno, relaci
 
 --------------------------------------------------------------------------
 
+#### Para executar este aplicativo:
+
+##### 1 - Baixar este projeto
+##### 2 - Instalar todos os requisitos na pasta de projeto, conforme explicado abaixo
+##### 3 - Realizar o build do projeto, utilizando o comando make, na pasta raiz do projeto
+##### 4 - Após gerar o executável, chamar o aplicativo, seguindo o seguinte formato:
+           ./trgl <ARQUIVO> <WIN-WIDTH> <WIN-HEIGHT>
+           onde:
+              <ARQUIVO>    = nome de um arquivo de imagem do tipo .PNL
+              <WIN-WIDTH>  = largura da janela de exibição
+              <WIN-HEIGHT> = altura da janela de exibição
+
+--------------------------------------------------------------------------
+
 ## Créditos
 Este projeto foi desenvolvido usando os seguintes recursos:
 
