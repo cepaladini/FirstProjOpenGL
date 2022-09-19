@@ -61,8 +61,8 @@ Este projeto foi desenvolvido usando os seguintes recursos:
         └── pkgconfig
             └── glfw3.pc
             
-    Observar o arquivo ./GLFW/3.3.8/lib/pkgconfig/glfw3.pc. Ele será usado através do arquivo init.sh, para configurar 
-    o acesso ao GLFW instalado.
+    Observar o arquivo ./GLFW/3.3.8/lib/pkgconfig/glfw3.pc. Ele será reconhecido através do arquivo init.sh, e 
+    posteriormente usado no arquivo Makefile, para configurar o acesso ao GLFW instalado.
     
 ### 2 - Gerar o arquivo glad.zip, a partir do site do gerador GLAD (https://glad.dav1d.de/), com as seguintes configurações:
 
