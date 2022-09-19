@@ -17,7 +17,6 @@ TRGSTR=-I./TriangleStrip/
 ## Para OpenGL Mathematics
 GLM=-I./glm/
 
-
 all: glad.o workImage.o trgl
 
 glad.o: ${GLSRC}glad.c
