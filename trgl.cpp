@@ -66,5 +66,8 @@ int main(int argc, char* argv[])
    // Configura estado global do OpenGL
    glEnable(GL_DEPTH_TEST);
 
+   // Compilar os shader programs
+   Shader heightMapShader("8.3.cpuheight.vs","8.3.cpuheight.fs");
+
    return 0;
 }
