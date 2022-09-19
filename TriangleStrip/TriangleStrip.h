@@ -54,7 +54,7 @@ TriangleStrip::TriangleStrip(workImage& wImg)
    
    // valores necessários para renderização do mesh.
    numStrips        = height-1;
-   numVertsPerStrip = width*2;
+   numVertsPerStrip = width*2-2;
    
    // gera os indices para cada i,j,k (linha,coluna,lado) dos strips.
    for (i=0; i<height-1; i++)
