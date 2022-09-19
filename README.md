@@ -14,6 +14,9 @@ Receber imagem com mapa de alturas, e gerar visualização 3D do terreno, relaci
               <ARQUIVO>    = nome de um arquivo de imagem do tipo .PNL
               <WIN-WIDTH>  = largura da janela de exibição
               <WIN-HEIGHT> = altura da janela de exibição
+##### 5 - Na janela de visualização apresentada, é possível movimentar o terreno, utilizando o movimento do mouse
+##### 6 - Na janela de visualização apresentada, é possível afastar ou aproximar o terreno, utilizando o botão de scrool do mouse
+##### 7 - Para sair do aplicativo, basta digitar a tecla ESC
 
 --------------------------------------------------------------------------
 
