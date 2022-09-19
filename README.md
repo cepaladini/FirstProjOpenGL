@@ -29,15 +29,18 @@ Este projeto foi desenvolvido usando os seguintes recursos:
     . The glad generated code itself is any of Public Domain, WTFPL or CC0
       https://github.com/Dav1dde/glad
 
-### 4 - Projeto: GLM - OpenGL Mathematics 
+### 4 - Projeto STB - Library for C/C++ image loader: stb_image.h
+    . https://github.com/nothings/stb
+    
+    . Licenciado nos termos single-file public domain (or MIT licensed)
+      https://github.com/nothings/stb/blob/master/LICENSE
+
+### 5 - Projeto: GLM - OpenGL Mathematics 
 
     . https://glm.g-truc.net/0.9.8/index.html
     
     . Licenciado nos termos Happy Bunny License (Modified MIT) or the MIT License
       http://glm.g-truc.net/copying.txt
-
-### 5 -
-    .
     
 --------------------------------------------------------------------------
 
@@ -87,5 +90,15 @@ Este projeto foi desenvolvido usando os seguintes recursos:
     │       └── khrplatform.h
     └── src
         └── glad.c
+
+### 3 - Baixar o arquivo stb_image.h a partir do site:
+    https://github.com/nothings/stb 
+
+#### Criar no PATH do projeto o diretório ./stb/, e colocar o arquivo baixado dentro deste diretório, gerando a seguinte estrutura:
+    stb/
+    └── stb_image.h
+    
+### 4 -
+
 
 --------------------------------------------------------------------------
