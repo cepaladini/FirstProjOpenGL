@@ -95,10 +95,42 @@ Este projeto foi desenvolvido usando os seguintes recursos:
     https://github.com/nothings/stb 
 
 #### Criar no PATH do projeto o diretório ./stb/, e colocar o arquivo baixado dentro deste diretório, gerando a seguinte estrutura:
+
     stb/
     └── stb_image.h
     
-### 4 -
+### 4 - Baixar a biblioteca GLM - OpenGL Mathematics, a partir do site:
+    https://glm.g-truc.net/0.9.8/index.html
+    
+#### Instalar esta biblioteca no PATH do projeto, obtendo a seguinte estrutura:
+
+    glm
+    ├── cmake
+    ├── doc
+    │   ├── api
+    │   └── theme
+    ├── glm
+    │   ├── detail
+    │   ├── gtc
+    │   ├── gtx
+    │   └── simd
+    ├── test
+    │   ├── bug
+    │   ├── core
+    │   ├── external
+    │   │   └── gli
+    │   │       ├── core
+    │   │       └── gtx
+    │   ├── gtc
+    │   └── gtx
+    └── util
+        └── conan-package
+            ├── lib_licenses
+            └── test_package
+
+
+    
+    
 
 
 --------------------------------------------------------------------------
