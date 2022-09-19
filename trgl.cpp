@@ -13,6 +13,8 @@
 #include <Mesh.h>
 #include <TriangleStrip.h>
 
+#include <learnopengl/shader_m.h>
+
 int main(int argc, char* argv[])
 {
    // Abrir a imagem fornecida, e coletar dados e dimensões da imagem.
