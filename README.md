@@ -11,7 +11,7 @@ Receber imagem com mapa de alturas, e gerar visualização 3D do terreno, relaci
 ##### 4 - Após gerar o executável, chamar o aplicativo, seguindo o seguinte formato:
            ./trgl <ARQUIVO> <WIN-WIDTH> <WIN-HEIGHT>
            onde:
-              <ARQUIVO>    = nome de um arquivo de imagem do tipo .PNL
+              <ARQUIVO>    = nome de um arquivo de imagem do tipo .PNG
               <WIN-WIDTH>  = largura da janela de exibição
               <WIN-HEIGHT> = altura da janela de exibição
 ##### 5 - Na janela de visualização apresentada, é possível movimentar o terreno, utilizando o movimento do mouse
