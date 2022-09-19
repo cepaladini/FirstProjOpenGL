@@ -10,6 +10,9 @@
 
 #include "trgl.h"
 
+#include <Mesh.h>
+#include <TriangleStrip.h>
+
 int main(int argc, char* argv[])
 {
    // Abrir a imagem fornecida, e coletar dados e dimensões da imagem.
@@ -22,13 +25,15 @@ int main(int argc, char* argv[])
    workImage img1;
    img1.carrega(myImg);
    
-   /*
    // Constrói o mesh, a partir da imagem.
    Mesh msh(img1);
    
+   std::cout << "Loaded " << msh.getSize() / 3 << " vertices" << std::endl;
+
    // Constrói os Triangle strips, a partir da imagem.
    TriangleStrip tStrip(img1);
-   */
+
+   std::cout << "Loaded " << tStrip.getSize() << " triangulos" << std::endl;
    
    // Inicializa e configura o ambiente do glfw
    glfwInit();

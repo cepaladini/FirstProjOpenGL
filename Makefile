@@ -8,6 +8,12 @@ GLSRC=./glad/src/
 STB=-I./stb/
 WI=-I./workImage/
 
+## Para Mesh
+MSH=-I./Mesh/
+
+## Para Triangle Strips
+TRGSTR=-I./TriangleStrip/
+
 all: glad.o workImage.o trgl
 
 glad.o: ${GLSRC}glad.c
@@ -17,7 +23,7 @@ workImage.o: workImage/workImage.cpp workImage/workImage.h
 	${CC} ${STB} ${WI} -c workImage/workImage.cpp -o workImage.o
 
 trgl: trgl.cpp trgl.h
-	${CC} $(shell pkg-config --cflags glfw3) ${INCLUDEGL} ${STB} ${WI} workImage.o glad.o trgl.cpp $(shell pkg-config --static --libs glfw3) -o trgl
+	${CC} $(shell pkg-config --cflags glfw3) ${INCLUDEGL} ${STB} ${WI} ${MSH} ${TRGSTR} workImage.o glad.o trgl.cpp $(shell pkg-config --static --libs glfw3) -o trgl
 
 clean:
 	rm glad.o workImage.o trgl
